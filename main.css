@@ -1,0 +1,31 @@
+button {
+    font: bold 11px Arial;
+    text-decoration: aqua;
+    background-color: rgb(53, 110, 255);
+    color: #ffffff;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+  
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: left;
+  background-color: rgb(0, 154, 220);
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+table td {
+  border: 1px solid #e3e3e3;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table tr:nth-child(even) td {
+  background-color: #e7edf0;
+}
